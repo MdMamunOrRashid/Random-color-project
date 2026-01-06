@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body class="gap-2 text-center m-[100px]">
-    <button class="bg-red-800" id="red"> RED</button>
-    <button class="bg-green-800" id="Green"> Green</button>
-    <button class="bg-blue-600" id="Blue"> Blue</button>
-    <button class="bg-white" id="Random"> Random</button>
-    <script></script>
-    <button type="submit">n</button>
+<body class="gap-2 text-center m-[100px] cursor-pointer">
+    <button class="bg-red-800 rounded-[5px] w-[100px]" id="red" onclick="setColor('red')"> RED</button>
+    <button class="bg-green-800 rounded-[5px] w-[100px]" id="Green" onclick="setColor('green')"> Green</button>
+    <button class="bg-blue-600 rounded-[5px] w-[100px]" id="Blue" onclick="setColor('blue')"> Blue</button>
+    <button class="bg-white rounded-[5px] w-[100px] border-2" id="Random" onclick="setColor('blue')"> Random</button>
+    <script src="app.js"></script>
+
 </body>
 </html>
